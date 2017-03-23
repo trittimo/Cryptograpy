@@ -3,5 +3,5 @@ function y = allshift(x);
 
 for j=0:25,
    z=shift(x,j);
-   disp(z);
+   fprintf('%d: %s\n', j, z);
 end;
